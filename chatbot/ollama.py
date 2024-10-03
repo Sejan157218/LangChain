@@ -30,7 +30,7 @@ input_text = st.text_input("Search the topic you want")
 
 
 # open ai LLM call
-llm = ollama(model="llama2")
+llm = ollama(model="llama3.2:3b")
 output_parser = StrOutputParser()
 
 

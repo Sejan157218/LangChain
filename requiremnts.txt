@@ -3,7 +3,14 @@ langchain_core
 python-dotenv
 streamlit
 langchain_community
+
+# api
 langserve
 fastapi
 uvicorn
 sse_starlette
+
+# rag
+bs4
+pypdf
+faiss-cpu

@@ -37,7 +37,7 @@ add_routes(
 model = ChatOpenAI()
 
 # llama2
-llm = Ollama(model="llama2")
+llm = Ollama(model="llama3.2:3b")
 
 prompt = ChatPromptTemplate.from_template("Write me an essay {topic} with in 100 words")
 prompt2 = ChatPromptTemplate.from_template("Write me an poem {topic} for 5 years old child with in 100 words")
