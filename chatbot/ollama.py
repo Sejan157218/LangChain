@@ -1,6 +1,6 @@
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from langchain_community.llms import ollama
+from langchain_community.llms import Ollama
 
 
 import streamlit as st
@@ -30,7 +30,7 @@ input_text = st.text_input("Search the topic you want")
 
 
 # open ai LLM call
-llm = ollama(model="llama3.2:3b")
+llm = Ollama(model="llama3.2")
 output_parser = StrOutputParser()
 
 
