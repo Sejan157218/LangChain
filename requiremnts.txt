@@ -14,3 +14,8 @@ sse_starlette
 bs4
 pypdf
 faiss-cpu
+
+# agent and tools
+wikipedia
+arxiv
+langchainhub
