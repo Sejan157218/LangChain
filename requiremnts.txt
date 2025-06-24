@@ -19,3 +19,7 @@ faiss-cpu
 wikipedia
 arxiv
 langchainhub
+
+# groq
+beautifulsoup4
+langchain-groq
